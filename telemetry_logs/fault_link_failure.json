@@ -1,0 +1,18 @@
+{
+  "label": "fault_link_failure",
+  "timestamp": 1787910270.2231076,
+  "pings": {
+    "h1->h2": "PING 10.0.0.2 (10.0.0.2) 56(84) bytes of data.\r\n\r\n--- 10.0.0.2 ping statistics ---\r\n3 packets transmitted, 0 received, 100% packet loss, time 2291ms\r\n\r\n",
+    "h1->h3": "PING 10.0.0.3 (10.0.0.3) 56(84) bytes of data.\r\n64 bytes from 10.0.0.3: icmp_seq=1 ttl=64 time=0.183 ms\r\n64 bytes from 10.0.0.3: icmp_seq=2 ttl=64 time=0.066 ms\r\n64 bytes from 10.0.0.3: icmp_seq=3 ttl=64 time=0.065 ms\r\n\r\n--- 10.0.0.3 ping statistics ---\r\n3 packets transmitted, 3 received, 0% packet loss, time 2365ms\r\nrtt min/avg/max/mdev = 0.065/0.104/0.183/0.055 ms\r\n",
+    "h1->h4": "PING 10.0.0.4 (10.0.0.4) 56(84) bytes of data.\r\n64 bytes from 10.0.0.4: icmp_seq=1 ttl=64 time=2.47 ms\r\n64 bytes from 10.0.0.4: icmp_seq=2 ttl=64 time=0.053 ms\r\n64 bytes from 10.0.0.4: icmp_seq=3 ttl=64 time=0.051 ms\r\n\r\n--- 10.0.0.4 ping statistics ---\r\n3 packets transmitted, 3 received, 0% packet loss, time 2164ms\r\nrtt min/avg/max/mdev = 0.051/0.858/2.470/1.139 ms\r\n",
+    "h2->h1": "ping: connect: Network is unreachable\r\n",
+    "h2->h3": "ping: connect: Network is unreachable\r\n",
+    "h2->h4": "ping: connect: Network is unreachable\r\n",
+    "h3->h1": "PING 10.0.0.1 (10.0.0.1) 56(84) bytes of data.\r\n64 bytes from 10.0.0.1: icmp_seq=1 ttl=64 time=0.020 ms\r\n64 bytes from 10.0.0.1: icmp_seq=2 ttl=64 time=0.100 ms\r\n64 bytes from 10.0.0.1: icmp_seq=3 ttl=64 time=0.100 ms\r\n\r\n--- 10.0.0.1 ping statistics ---\r\n3 packets transmitted, 3 received, 0% packet loss, time 2057ms\r\nrtt min/avg/max/mdev = 0.020/0.073/0.100/0.037 ms\r\n",
+    "h3->h2": "PING 10.0.0.2 (10.0.0.2) 56(84) bytes of data.\r\n\r\n--- 10.0.0.2 ping statistics ---\r\n3 packets transmitted, 0 received, 100% packet loss, time 2383ms\r\n\r\n",
+    "h3->h4": "PING 10.0.0.4 (10.0.0.4) 56(84) bytes of data.\r\n64 bytes from 10.0.0.4: icmp_seq=1 ttl=64 time=0.271 ms\r\n64 bytes from 10.0.0.4: icmp_seq=2 ttl=64 time=0.090 ms\r\n64 bytes from 10.0.0.4: icmp_seq=3 ttl=64 time=0.045 ms\r\n\r\n--- 10.0.0.4 ping statistics ---\r\n3 packets transmitted, 3 received, 0% packet loss, time 2145ms\r\nrtt min/avg/max/mdev = 0.045/0.135/0.271/0.097 ms\r\n",
+    "h4->h1": "PING 10.0.0.1 (10.0.0.1) 56(84) bytes of data.\r\n64 bytes from 10.0.0.1: icmp_seq=1 ttl=64 time=0.037 ms\r\n64 bytes from 10.0.0.1: icmp_seq=2 ttl=64 time=0.072 ms\r\n64 bytes from 10.0.0.1: icmp_seq=3 ttl=64 time=0.108 ms\r\n\r\n--- 10.0.0.1 ping statistics ---\r\n3 packets transmitted, 3 received, 0% packet loss, time 2041ms\r\nrtt min/avg/max/mdev = 0.037/0.072/0.108/0.029 ms\r\n",
+    "h4->h2": "PING 10.0.0.2 (10.0.0.2) 56(84) bytes of data.\r\n\r\n--- 10.0.0.2 ping statistics ---\r\n3 packets transmitted, 0 received, 100% packet loss, time 2046ms\r\n\r\n",
+    "h4->h3": "PING 10.0.0.3 (10.0.0.3) 56(84) bytes of data.\r\n64 bytes from 10.0.0.3: icmp_seq=1 ttl=64 time=0.039 ms\r\n64 bytes from 10.0.0.3: icmp_seq=2 ttl=64 time=0.089 ms\r\n64 bytes from 10.0.0.3: icmp_seq=3 ttl=64 time=0.063 ms\r\n\r\n--- 10.0.0.3 ping statistics ---\r\n3 packets transmitted, 3 received, 0% packet loss, time 2309ms\r\nrtt min/avg/max/mdev = 0.039/0.063/0.089/0.020 ms\r\n"
+  }
+}
