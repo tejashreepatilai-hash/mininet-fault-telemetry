@@ -1,0 +1,44 @@
+*** No default OpenFlow controller found for default switch!
+*** Falling back to OVS Bridge
+*** Creating network
+*** Adding controller
+*** Adding hosts:
+h1 h2 h3 h4 
+*** Adding switches:
+s1 s2 s3 s4 
+*** Adding links:
+(h1, s1) (h2, s2) (h3, s3) (h4, s4) (s2, s1) (s3, s2) (s4, s3) 
+*** Configuring hosts
+h1 h2 h3 h4 
+*** Starting controller
+
+*** Starting 4 switches
+s1 s2 s3 s4 ...
+*** Starting CLI:
+mininet> *** Unknown command: sudo mn --topo linear,4
+mininet> mininet> available nodes are: 
+h1 h2 h3 h4 s1 s2 s3 s4
+mininet> h1-eth0<->s1-eth1 (OK OK) 
+h2-eth0<->s2-eth1 (OK OK) 
+h3-eth0<->s3-eth1 (OK OK) 
+h4-eth0<->s4-eth1 (OK OK) 
+s2-eth2<->s1-eth2 (OK OK) 
+s3-eth2<->s2-eth3 (OK OK) 
+s4-eth2<->s3-eth3 (OK OK) 
+mininet> *** Ping: testing ping reachability
+h1 -> h2 h3 h4 
+h2 -> h1 h3 h4 
+h3 -> h1 h2 h4 
+h4 -> h1 h2 h3 
+*** Results: 0% dropped (12/12 received)
+mininet> mininet> *** Unknown command: mininet_result.txt
+mininet> mininet> *** Stopping 0 controllers
+
+*** Stopping 7 links
+.......
+*** Stopping 4 switches
+s1 s2 s3 s4 
+*** Stopping 4 hosts
+h1 h2 h3 h4 
+*** Done
+completed in 34.082 seconds
